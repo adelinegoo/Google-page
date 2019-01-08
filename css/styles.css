@@ -1,5 +1,5 @@
 body {
-	font-family: sans-serif, Arial;
+  font-family: sans-serif, Arial;
 }
 
 li a {
@@ -7,34 +7,30 @@ li a {
 }
 
 #page {
-	min-height: 100vh;
-	/* 1 */
-	display: flex;
-	/* 2 */
-	flex-direction: column;
-	/* 3 */
+	min-height:100vh; /* 1 */
+	display:flex; /* 2 */
+	flex-direction:column; /* 3 */
 }
 
-nav {
-	padding: 4px 20px;
-	padding-top: 10px;
-	float: right;
-}
+nav{padding: 4px 20px;
+ padding-top: 10px;
+    float:right;}
 
 nav ul li {
 	display: inline-block;
-	color: #fff;
-}
 
+	color: #fff;
+
+}
 nav a {
-	text-decoration: none;
-	color: #000;
-	opacity: 0.75;
+  text-decoration: none;
+  color: #000;
+  opacity: 0.75;
 }
 
 nav ul li a:hover {
-	text-decoration-line: underline;
-	opacity: 0.65;
+  text-decoration-line: underline;
+  opacity: 0.65;
 }
 
 ul {
@@ -47,40 +43,35 @@ ul {
 }
 
 .apps {
-	width: 8px;
-	height: 8px;
-	margin-top: -2px;
-	padding-right: 9px;
-	opacity: 0.75;
+  width: 8px;
+  height: 8px;
+  margin-top: -2px;
+  padding-right: 9px;
+  opacity: 0.75;
 }
-
 .connexion {
-	border: 1px solid #4285f4;
-	outline: none;
-	background: #4285f4;
-	line-height: 28px;
-	padding: 0 12px;
+  border: 1px solid #4285f4;
+  outline: none;
+  background: #4285f4;
+  line-height: 28px;
+  padding: 0 12px;
+
 }
 
-#container {
-	flex-grow: 1;
-	/* 4 */
-}
-
-/* GOOGLE  */
-
-container {
-	text-align: center;
+#container
+{flex-grow:1;
+  align-self: center;
 	display: block;
-	margin: 0 auto;
+  height: 233px;
+  margin-top: 89px;
 	padding-top: 112px;
 	padding-bottom: 20px;
-	top: 40%;
 }
 
 img {
 	text-align: center;
 	display: block;
+
 }
 
 a {
@@ -91,6 +82,17 @@ a {
 
 input {
 	line-height: 34px
+  width: 585px;
+  height: 39px;
+  border: .7px solid #E4E4E4;
+  background-color: #fff;
+  box-shadow:0px 1px 4px #E4E4E4;
+  margin: 20px;
+  outline: none;
+   display:flex;
+    padding-left: 12px;
+    padding-top: 6px;
+  text-indent: 15px;
 }
 
 a:hover {
@@ -111,11 +113,16 @@ button {
 	font-size: 13px;
 	height: 36px;
 	line-height: 27px;
+  height: 36px;
+  margin: 11px 14px;
+  padding: 0 16px;
 }
 
 footer {
 	bottom: 0;
-	background-color: #f2f2f2;
+  background-color: #f2f2f2;
+   flex-direction: column;
+
 }
 
 #main {
@@ -123,21 +130,24 @@ footer {
 	flex-grow: 1;
 }
 
-#firstfooter {
+.firstfooter {
 	margin-left: 30px;
-	text-align: left;
 	line-height: 40px;
+  color: #666666;
+  background-color: #f2f2f2;
+  border-top: solid 1px #e4e4e4;
 }
 
-#secondfooter {
+.secondfooter {
 	height: 60px;
-	display: flex;
+
 }
 
-	{
+{
 	float: right;
 }
 
 #secondfooter ul {
-	flex-direction: row;
+
+   flex-direction: row;
 }
