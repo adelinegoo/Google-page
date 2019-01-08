@@ -1,57 +1,111 @@
-body {
-  font-family: sans-serif,  Arial ;
+12 body {
+	font-family: sans-serif, Arial;
 }
 
 li a {
-  display: inline-block;}
+	display: inline-block;
+}
 
 header {
-    position: absolute;
-    right: 0;
-    height: 30px;
-    width: 100%;
-}
-.header{
-  display: right;
+	position: absolute;
+	right: 0;
+	height: 30px;
+	width: 100%;
 }
 
-.iconright ul li {
-  display: inline-block;
-  margin-right: 2em;
-  font-size: 1.1em;
-  color: #fff;
-  font-weight: 400;
-  letter-spacing: 1px;
+.header {
+	float: right;
 }
+
+.header ul li {
+	display: inline-block;
+	margin-right: 2em;
+	font-size: 1.1em;
+	color: #fff;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+
 ul {
-  position: right;
-  text-align: right;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-
+	position: right;
+	text-align: right;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	flex-direction: row
 }
 
-a{ text-decoration: none;
-  background-color: #f2f2f2;
-  color: ##5f6368;
+/* GOOGLE  */
+
+container {
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	padding-top: 112px;
+	padding-bottom: 20px;
 }
 
-input{line-height: 34px}
+img {
+	text-align: center;
+	display: block;
+}
+
+a {
+	text-decoration: none;
+	background-color: #f2f2f2;
+	color: #5f6368;
+}
+
+input {
+	line-height: 34px
+}
+
 a:hover {
-  text-decoration: underline;
+	text-decoration: underline;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 11px 4px;
+	min-width: 54px;
+	padding: 0 16px;
+	text-align: center;
 }
 
 button {
-background-color: #f2f2f2;
-color: #757575;
-font-size: 16px;
-font-weight: bold;
-font-size: 13px;
-height: 36px;
-line-height: 27px;
+	background-color: #f2f2f2;
+	color: #757575;
+	font-size: 16px;
+	font-weight: bold;
+	font-size: 13px;
+	height: 36px;
+	line-height: 27px;
 }
-footer {position: absolute; bottom: 0;}
-.firstfooter
-{    margin-left: 30px;
-    text-align: left;}
+
+footer {
+	bottom: 0;
+	background-color: #f2f2f2;
+}
+
+#main {
+	display: flex;
+	flex-grow: 1;
+}
+
+#firstfooter {
+	margin-left: 30px;
+	text-align: left;
+	line-height: 40px;
+	background color: red;
+}
+
+#secondfooter {
+	height: 60px;
+	display: flex;
+}
+
+#secondfooter.rightfooter {
+	float: right;
+}
+
+#secondfooter.rightfooter ul {
+	display: inline-block;
+}
