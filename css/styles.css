@@ -147,12 +147,12 @@ buttons:hover {
 #secondfooterleft {
   border: 1px solid black;}
 
-	#right_side {
+#secondfooter.right_side {
 display: flex;
 justify-content: flex-start;
 }
 
-#left_side {
+#secondfooter.left_side {
 display: flex;
 justify-content: flex-end;
 }
