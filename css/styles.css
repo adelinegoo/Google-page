@@ -3,7 +3,7 @@ body {
 }
 
 li a {
-	display: inline-block;
+  display: inline-block;
 }
 
 #page {
@@ -97,6 +97,8 @@ a:hover {
 
 input {
 	line-height: 34px ;
+  text-align: center;
+  display: block;
 	width: 585px;
 	height: 39px;
 	font-size: 15px;
@@ -122,6 +124,7 @@ input:hover{
 
 button {
 	background-color: #f2f2f2;
+  
 	color: #757575;
 	font-size: 16px;
 	font-weight: bold;
