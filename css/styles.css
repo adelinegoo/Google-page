@@ -144,15 +144,12 @@ buttons:hover {
 	background-color: #f2f2f2;
   border: 1px solid black;
 }
-#secondfooterleft {
-  border: 1px solid black;}
+#secondfooter.footerleft {
+  border: 1px solid black;
+	display: flex;
+justify-content: flex-start;}
 
-#secondfooter.right_side {
-display: flex;
-justify-content: flex-start;
-}
-
-#secondfooter.left_side {
+#secondfooter.footerright{
 display: flex;
 justify-content: flex-end;
 }
