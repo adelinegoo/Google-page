@@ -81,6 +81,15 @@ a {
 	text-decoration: none;
 	background-color: #f2f2f2;
 	color: #5f6368;
+	margin: 11px 4px;
+	padding: 0 16px;
+}
+a:hover {
+	text-decoration: underline;
+	font-weight: bold;
+	
+	
+	text-align: center;
 }
 
 input {
@@ -97,15 +106,7 @@ input {
 	text-indent: 15px;
 }
 
-a:hover {
-	text-decoration: underline;
-	font-size: 13px;
-	font-weight: bold;
-	margin: 11px 4px;
-	min-width: 54px;
-	padding: 0 16px;
-	text-align: center;
-}
+
 
 button {
 	background-color: #f2f2f2;
@@ -142,7 +143,17 @@ buttons:hover {
 	justify-content: space-between;
 	color: #666666;
 	background-color: #f2f2f2;
-  border: 2px solid black;
+  border: 1px solid black;
 }
-#secondfooterleft
-  border: 2px solid black;}
+#secondfooterleft {
+  border: 1px solid black;}
+
+	#right_side {
+display: flex;
+justify-content: flex-start;
+}
+
+#left_side {
+display: flex;
+justify-content: flex-end;
+}
