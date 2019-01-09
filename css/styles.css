@@ -145,11 +145,10 @@ buttons:hover {
   border: 1px solid black;
 }
 #secondfooter.footerleft {
-  border: 1px solid black;
 	display: flex;
 justify-content: flex-start;}
 
 #secondfooter.footerright{
-display: flex;
-justify-content: flex-end;
+
+
 }
